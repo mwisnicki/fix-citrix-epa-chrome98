@@ -6,9 +6,9 @@
             "type": "block"
         },
         "condition": {
-            "domains": [
+            "urlFilter": 
                 "localhost"
-            ]
+            
         }
     }
 ]

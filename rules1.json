@@ -7,9 +7,6 @@
         },
         "condition": {
             "urlFilter": "||localhost:3198/*",
-            "domains": [
-                "localhost"
-            ],
             "requestMethods": [
                 "options"
             ]

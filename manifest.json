@@ -12,7 +12,7 @@
             },
             {
                 "id": "ruleset2",
-                "enabled": true,
+                "enabled": false,
                 "path": "rules2.json"
             }
         ]
