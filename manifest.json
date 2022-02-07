@@ -1,23 +1,16 @@
 {
     "name": "Fix Citrix EPA bug with Chrome 98",
     "description": "A workaround for crbug.com/1293405",
-    "version": "1.0",
-    "manifest_version": 3,
-    "declarative_net_request": {
-        "rule_resources": [
-            {
-                "id": "ruleset1",
-                "enabled": true,
-                "path": "rules1.json"
-            },
-            {
-                "id": "ruleset2",
-                "enabled": false,
-                "path": "rules2.json"
-            }
+    "version": "2.4",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
         ]
     },
     "permissions": [
-        "declarativeNetRequest"
+        "webRequest",
+        "webRequestBlocking",
+        "*://localhost/"
     ]
 }
